@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(7, 11, 48);
+   background-color: rgb(117, 117, 117);
     padding: .3rem;
     position: sticky;
     color: aliceblue;
@@ -60,7 +60,7 @@ margin-right: 5px;
 .nav-menu ul li:after{
     content: "";
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     height: 3px;
     width: 0px;
     left: 0;
@@ -69,13 +69,14 @@ margin-right: 5px;
 }
 .nav-menu ul li:hover:after{
     width: 100%;
+    color: #fff;
 
 }
 .btn {
     width: 6.5em;
-    height: 2.3em;
+    height: 2em;
     margin: 0.5em;
-    background: rgb(11, 46, 122);
+    background: rgb(177, 177, 177);
     color: white;
     border: none;
     border-radius: 0.625em;

@@ -6,6 +6,7 @@ import {BiLogoGmail} from 'react-icons/bi'
 
 
 
+
 const Navbar = () => {
 
   const [Nav, setNav]=useState(false)
@@ -13,6 +14,7 @@ const Navbar = () => {
 
   return (
   <>
+
 <div className="navbar">
     <div className="container">
       {/* logo */}
@@ -36,6 +38,7 @@ const Navbar = () => {
         
 
        {/* nav-menu */}
+
         <div className={Nav ? "nav-menu active":"nav-menu"}>
           <ul>
             <li>Home</li>
@@ -44,7 +47,7 @@ const Navbar = () => {
             <li>Work</li>
             <li>Contact Us</li>
           </ul>
-          <button class="btn"> Button
+          <button class="btn"> lern more
 </button>
         </div>
         <div className="hamborger" onClick={handelNav}>
@@ -61,5 +64,7 @@ const Navbar = () => {
   </>
   )
 }
+
+
 
 export default Navbar
