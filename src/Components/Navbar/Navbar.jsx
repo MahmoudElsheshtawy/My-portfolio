@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../photo/logo.png'
 import {FaBars,FaTimes,FaUser} from 'react-icons/fa'
 import {BiLogoGmail} from 'react-icons/bi'
+
+
+
 const Navbar = () => {
+  const [Nav, setNav]=useState(false)
+const handelNav = () => setNav(!Nav)
   return (
   <>
 <div className="navbar">
@@ -29,7 +34,7 @@ const Navbar = () => {
         
 
        {/* nav-menu */}
-        <div className="nav-menu">
+        <div className={Nav ? "nav-menu active":"nav-menu"}>
           <ul>
             <li>Home</li>
             <li>About</li>
@@ -38,9 +43,10 @@ const Navbar = () => {
             <li>Contact Us</li>
           </ul>
         </div>
-        <div className="hamborger">
-          <FaTimes/>
-          <FaBars/>
+        <div className="hamborger" onClick={handelNav}>
+          {Nav?(<FaTimes/> ):( <FaBars/>)}
+         
+         
         </div>
         
     </div>
