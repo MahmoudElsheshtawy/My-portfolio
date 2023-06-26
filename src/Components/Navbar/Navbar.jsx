@@ -42,6 +42,8 @@ const handelNav = () => setNav(!Nav)
             <li>Work</li>
             <li>Contact Us</li>
           </ul>
+          <button class="btn"> Button
+</button>
         </div>
         <div className="hamborger" onClick={handelNav}>
           {Nav?(<FaTimes/> ):( <FaBars/>)}

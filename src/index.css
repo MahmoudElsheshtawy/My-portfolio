@@ -11,3 +11,17 @@ body {
   /* font-size: 68%; */
   transition: 1s;
 }
+.Sections{
+ width: 100%;
+ height: calc(100vh - 70px);
+ background-color: aqua;
+ position: relative;
+ top: 70px;
+ scroll-snap-type: y mandatory;
+ z-index: -1;
+}
+*{
+  /* width: 100vw; */
+  /* height: calc(100 - 70px); */
+  scroll-snap-align: start;
+}
