@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 68%;
   transition: 1s;
+ 
 }
 .Sections{
  width: 100%;
@@ -15,8 +16,12 @@ body {
  top: 70px;
  scroll-snap-type: y mandatory;
  z-index: -1;
+
+
 }
 *{
 
   scroll-snap-align: start;
+ scroll-behavior: smooth;
+
 }

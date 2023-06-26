@@ -41,11 +41,13 @@ const Navbar = () => {
 
         <div className={Nav ? "nav-menu active":"nav-menu"}>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skils</li>
-            <li>Work</li>
-            <li>Contact Us</li>
+            <li><a href='#Home'>Home</a></li>
+            <li><a href='#About'>About</a></li>
+            <li><a href='#Skils'>Skils</a></li>
+            <li><a href='#Work'>Work</a></li>
+            <li><a href='#Contact Us'>Contact Us</a></li>
+            
+            
           </ul>
           <button class="btn"> lern more
 </button>

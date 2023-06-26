@@ -2,7 +2,7 @@ import React from 'react'
 import './Skils.css'
 const Skils = () => {
   return (
-    <div className='skils'>Skils</div>
+    <div className='skils' id='Skils'>Skils</div>
   )
 }
 
