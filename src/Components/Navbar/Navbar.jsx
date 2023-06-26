@@ -7,8 +7,10 @@ import {BiLogoGmail} from 'react-icons/bi'
 
 
 const Navbar = () => {
+
   const [Nav, setNav]=useState(false)
-const handelNav = () => setNav(!Nav)
+  const handelNav = () => setNav(!Nav)
+
   return (
   <>
 <div className="navbar">
