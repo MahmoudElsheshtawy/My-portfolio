@@ -46,17 +46,13 @@
 
 }
 .home .right .text-r h3{
-    font-size: 30px;
-    margin-top:10px ;
+    font-size: 30px; margin-top:10px ;
 }
 .home .container .right a{
-    position:absolute ;
-    bottom: 39px;
-    left: 70%;
+    position:absolute ;bottom: 39px;left: 70%;
 }
 .home .container .right a img{
-    width: 40px;
-    animation: arrowBlink 2s infinite;
+    width: 40px; animation: arrowBlink 2s infinite;
     
 }
 @keyframes arrowBlink {
