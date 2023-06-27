@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
   <>
 
-<div className="navbar">
+<div className="navbar  active" >
     <div className="container">
       {/* logo */}
         <div className="logo"><img src={logo} alt=""/></div>
@@ -41,11 +41,11 @@ const Navbar = () => {
 
         <div className={Nav ? "nav-menu active":"nav-menu"}>
           <ul>
-            <li><a href='#Home'>Home</a></li>
-            <li><a href='#About'>About</a></li>
-            <li><a href='#Skils'>Skils</a></li>
-            <li><a href='#Work'>Work</a></li>
-            <li><a href='#Contact Us'>Contact Us</a></li>
+            <li onClick={()=>setNav(false)}><a href='#Home'>Home</a></li>
+            <li onClick={()=>setNav(false)}><a href='#About'>About</a></li>
+            <li onClick={()=>setNav(false)}><a href='#Skils'>Skils</a></li>
+            <li onClick={()=>setNav(false)}><a href='#Work'>Work</a></li>
+            <li onClick={()=>setNav(false)}><a href='#Contact Us'>Contact Us</a></li>
             
             
           </ul>

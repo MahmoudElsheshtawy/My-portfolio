@@ -13,7 +13,7 @@ body {
  height: calc(100vh - 70px);
  background-color: aqua;
  position: relative;
- top: 70px;
+ top: 80px;
  scroll-snap-type: y mandatory;
  z-index: -1;
 
