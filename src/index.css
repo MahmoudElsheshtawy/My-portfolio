@@ -1,27 +1,18 @@
 body {
-  margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 68%;
+  margin: 0;
+   box-sizing: border-box;
   transition: 1s;
- 
 }
-.Sections{
+.App .Sections{
  width: 100%;
  height: calc(100vh - 70px);
- background-color: aqua;
- position: relative;
- top: 80px;
+ top: 75px;
  scroll-snap-type: y mandatory;
  z-index: -1;
-
-
+ position: relative;
 }
 *{
-
   scroll-snap-align: start;
- scroll-behavior: smooth;
-
+  scroll-behavior: smooth;
 }

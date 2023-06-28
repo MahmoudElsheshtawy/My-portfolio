@@ -1,13 +1,14 @@
 .home{
     height: calc(100vh - 70px);
-    background-color: rgb(255, 255, 255);
 }
 .home .container{
     display: flex;
     height: 100%;
+    width: 100%;
+  
 }
 .home .container .left{
-    flex: 0.5;
+    flex: 0.7;
     overflow: hidden;
 }
 .home .container .left .img-container{
@@ -18,7 +19,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    float: right;
+    /* float: right; */
 }
 .home .container .left .img-container img{
     width:100% ;
@@ -26,37 +27,56 @@
 .home .container .right{
     flex: 0.5;
     position: relative;
-    background-color: bisque;   
 }
 .home .container .right .text-r{
-    width: 100%;
     height: 100%;
     padding-left:40px ;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 }
 .home .right .text-r h1{
-    font-size: 60px ;
+    font-size: 50px ;
     margin: 0;
 } 
 .home .right .text-r h2{
-    font-size: 35px;
-    margin-bottom: 10px;
-
+    font-size: 40px;
+    margin-bottom: 1px;
 }
 .home .right .text-r h3{
-    font-size: 30px; margin-top:10px ;
+    font-size: 33px; margin-top:10px ;
+}
+.home .right .text-r h3 span{
+    color: crimson;
+    font-size: 30px;
 }
 .home .container .right a{
     position:absolute ;bottom: 39px;left: 70%;
 }
 .home .container .right a img{
-    width: 40px; animation: arrowBlink 2s infinite;
-    
+     width: 50px;
+     animation: arrowBlink 2s infinite;
 }
 @keyframes arrowBlink {
     100%{
         opacity: 0;
+    }
+}
+@media screen and (max-width:1200px) {
+    .home .container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .home .container .left .img-container{
+        width: 500px;
+        height: 500px;
+        background-color:crimson ;
+        border-radius: 50%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
     }
 }

@@ -2,43 +2,61 @@ import React from 'react'
 import './Home.css'
 import man from '../../assets/man.png'
 import down from '../../assets/down.png'
+import { Typewriter } from 'react-simple-typewriter'
+ 
 
-const Home = () => {
 
-  return (
 
-    <div className='home' id='Home'>
+    function Home() {
 
-        <div className="container">
-            {/* left */}
-          <div className="left">
-            <div className="img-container">
-              <img src={man} alt="" />
+ 
+    
+      return (
+     
+        <div className='home' id='Home'>
+
+          <div className="container">
+
+            <div className="left">
+              <div className="img-container">
+                <img src={man} alt="" />
+              </div>
             </div>
-             </div>
-             {/* right */}
-          <div className="right"> 
 
-          <div className="text-r">
-            <h2>Hi there, I'm</h2>
-            <h1>Mahmoud Elsheshtawy</h1>
-            <h3>Freelance <span>lll</span></h3>
-          </div>
-
-           <a href='#About'>
-            <img src={down} alt="" />
-          </a> 
+            <div className="right">
+              <div className="text-r">
+                <h2>Hi There, I'm;</h2>
+                <h1><i>Mahmoud Elshehtawy.</i></h1>
+                
+                <h3 >Freelance:<span >
+                <Typewriter
+            words={['Front end developer',]}
+            loop={7}
+            cursor
+            cursorStyle='<<'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
            
-          
-          
-          
+  />
+                </span>
+                </h3>
+                
+              </div>
+
+              <a href='#About'>
+                <img src={down} alt="" />
+              </a>
+
+
+
+
+            </div>
           </div>
+
         </div>
-        
-        
-        </div>
-  )
-}
+      );
+    }
 
 
 
