@@ -24,7 +24,7 @@ const Home = () => {
             <h1>Mahmoud Elsheshtawy</h1>
             <h3>Freelance <span>lll</span></h3>
           </div>
-          
+
            <a href='#About'>
             <img src={down} alt="" />
           </a> 
@@ -39,18 +39,6 @@ const Home = () => {
         </div>
   )
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
