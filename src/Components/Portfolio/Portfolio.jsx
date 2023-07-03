@@ -1,5 +1,6 @@
 import React from 'react'
 import './Portfolio.css'
+import project from '../../photo/project.png'
 const Portfolio = () => {
   return (
     <div className='Portfolio' id='Portfolio'>
@@ -8,7 +9,7 @@ const Portfolio = () => {
                   <h1>Protfolo</h1>
                   <ul>
 
-                    <li>Featurd</li>
+                    <li className='active'>Featurd</li>
                     <li>Web App</li>
                     <li>Mobile App </li>
                     <li>Dising</li>
@@ -18,8 +19,37 @@ const Portfolio = () => {
 
                 </div>
             <div className="bottom-container">
-              <img src="" alt="" />
-              <h3>Banking App</h3>
+                     <div className="item">
+                     <img src={project} alt="" />
+                        <h3>Banking App</h3>
+                     </div>
+
+                     <div className="item">
+                     <img src={project} alt="" />
+                        <h3>Banking App</h3>
+                     </div>
+
+                     <div className="item">
+                     <img src={project} alt="" />
+                        <h3>Banking App</h3>
+                     </div>
+
+                     <div className="item">
+                     <img src={project} alt="" />
+                        <h3>Banking App</h3>
+                     </div>
+
+                     <div className="item">
+                     <img src={project} alt="" />
+                        <h3>Banking App</h3>
+                     </div>
+
+                     <div className="item">
+                     <img src={project} alt="" />
+                        <h3>Banking App</h3>
+                     </div>
+
+
             </div>
                   
 

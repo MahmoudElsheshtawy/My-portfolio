@@ -31,7 +31,7 @@ import { Typewriter } from 'react-simple-typewriter'
                 <h3 >Freelance:<span >
                 <Typewriter
             words={['Front end developer',]}
-            loop={7}
+            loop={70}
             cursor
             cursorStyle='<<'
             typeSpeed={70}
