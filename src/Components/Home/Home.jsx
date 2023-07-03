@@ -44,7 +44,7 @@ import { Typewriter } from 'react-simple-typewriter'
                 
               </div>
 
-              <a href='#About'>
+              <a href='#Portfolio'>
                 <img src={down} alt="" />
               </a>
 

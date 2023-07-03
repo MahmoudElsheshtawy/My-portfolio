@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className={Nav ? "nav-menu active":"nav-menu"}>
           <ul>
             <li onClick={()=>setNav(false)}><a href='#Home'>Home</a></li>
-            <li onClick={()=>setNav(false)}><a href='#About'>About</a></li>
+            <li onClick={()=>setNav(false)}><a href='#Portfolio'>Portfolio</a></li>
             <li onClick={()=>setNav(false)}><a href='#Skils'>Skils</a></li>
             <li onClick={()=>setNav(false)}><a href='#Work'>Work</a></li>
             <li onClick={()=>setNav(false)}><a href='#Contact Us'>Contact Us</a></li>

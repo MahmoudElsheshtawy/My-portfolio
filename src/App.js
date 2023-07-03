@@ -1,4 +1,4 @@
-import About from "./Components/About/About";
+import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
@@ -11,7 +11,7 @@ function App() {
        <Navbar/>
        <div className="Sections">
          <Home/>
-         <About/>
+         <Portfolio/>
          <Skils/>
          <Work/>
          <Contact/>
