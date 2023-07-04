@@ -3,16 +3,19 @@ body {
   margin: 0;
    box-sizing: border-box;
   transition: 1s;
+
 }
 .App .Sections{
  width: 100%;
  height: calc(100vh - 70px);
  top: 75px;
- scroll-snap-type: y mandatory;
+ scroll-snap-type:y mandatory;
  z-index: -1;
  position: relative;
+
 }
+ 
 *{
-  scroll-snap-align: start;
+  scroll-snap-align:start;
   scroll-behavior: smooth;
 }

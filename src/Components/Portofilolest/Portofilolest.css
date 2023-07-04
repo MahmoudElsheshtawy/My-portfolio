@@ -1,0 +1,12 @@
+ .Portofilolest{
+    margin-right: 70px;
+    font-size: 20px;
+    border-radius:10px ;
+    padding: 7px;
+    font-size: 18px;
+
+}
+.Portofilolest.active{
+    background-color: blue;
+    color: #fff;
+}

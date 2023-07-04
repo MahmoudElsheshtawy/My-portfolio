@@ -1,7 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Portfolio.css'
+import Portofilolest from "../Portofilolest/Portofilolest"
 import project from '../../photo/project.png'
 const Portfolio = () => {
+ 
+   const [selected ,setSelected]=useState ("Featurd")
+
+   const List=[
+
+        {
+         id:"featured",
+         title:"Featurd",
+        },
+        {
+         id:"Web",
+         title:"Web App",
+
+
+
+        },
+        {
+         id:"mobile",
+         title:"mobile App",
+
+
+        },
+        {
+         id:"desingn",
+         title:"Design",
+        },
+        {
+         
+         id:"content",
+         title:"Content"
+      
+      
+      },
+
+
+   ];
   return (
     <div className='Portfolio' id='Portfolio'>
               <div className="container">
@@ -9,11 +46,18 @@ const Portfolio = () => {
                   <h1>Protfolo</h1>
                   <ul>
 
-                    <li className='active'>Featurd</li>
-                    <li>Web App</li>
-                    <li>Mobile App </li>
-                    <li>Dising</li>
-                    <li>Branding</li>
+                   {/* {List.map((item)=>(
+                     <Portofilolest title={item.title} active={selected === item.id} setSelected={setSelected} id={item.id}/>
+
+                   ))}  */}
+                      {List.map((item) => (
+          <Portofilolest
+            title={item.title}
+            active={selected === item.id}
+            setSelected={setSelected}
+            id={item.id}
+          />
+        ))}
             
                     </ul>
 
