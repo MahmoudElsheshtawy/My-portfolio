@@ -1,10 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import './Portfolio.css'
 import Portofilolest from "../Portofilolest/Portofilolest"
+
+
 import project from '../../photo/project.png'
+// import project from '../photo/project.png'
+// import react from '../photo/react.png'
+import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio,contentPortfolio,} from "../data";
 const Portfolio = () => {
  
-   const [selected ,setSelected]=useState ("Featurd")
+   const [selected ,setSelected]=useState ("Featurd");
+  const [data, setData] = useState([]);
+
+
 
    const List=[
 
@@ -39,6 +47,27 @@ const Portfolio = () => {
 
 
    ];
+   useEffect(() => {
+      switch (selected) {
+        case "featured":
+          setData(featuredPortfolio);
+          break;
+        case "web":
+          setData(webPortfolio);
+          break;
+        case "mobile":
+          setData(mobilePortfolio);
+          break;
+        case "design":
+          setData(designPortfolio);
+          break;
+        case "content":
+          setData(contentPortfolio);
+          break;
+        default:
+          setData(featuredPortfolio);
+      }
+    }, [selected]);
   return (
     <div className='Portfolio' id='Portfolio'>
               <div className="container">
