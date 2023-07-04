@@ -6,7 +6,12 @@ import Portofilolest from "../Portofilolest/Portofilolest"
 import project from '../../photo/project.png'
 // import project from '../photo/project.png'
 // import react from '../photo/react.png'
-import { featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio,contentPortfolio,} from "../data";
+import {
+   featuredPortfolio,
+    webPortfolio,
+     mobilePortfolio,
+     designPortfolio,
+     contentPortfolio,} from "../data";
 const Portfolio = () => {
  
    const [selected ,setSelected]=useState ("Featurd");
