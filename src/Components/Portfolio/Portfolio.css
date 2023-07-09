@@ -34,8 +34,8 @@ flex-wrap: wrap;
 }
 .Portfolio .container .bottom-container .item{
     margin: 20px 20px;
-    width: 270px;       
-    height: 150px;
+    width: 260px;       
+    height: 200px;
     border-radius: 20px;
     gap: 1.4rem;
     display: flex;
@@ -51,16 +51,20 @@ flex-wrap: wrap;
 }
 .Portfolio .container .bottom-container .item img{
     width: 100%;
+    height: 100%;
     border-radius: 20px;
     transition: .4s ease-in-out;
 
 }
 .Portfolio .container .bottom-container .item:hover{
     background-color: rgb(109, 109, 109);
+    
 }
 .Portfolio .container .bottom-container .item:hover img{
     opacity: .2;
     z-index: 0;
+    width: 100%;
+    height: 100%;
 }
 .Portfolio .container .bottom-container .item:hover h3{
     color: #fff;

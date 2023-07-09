@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portofilolest.css'
 
-const Portofilolest = ({id,title ,active, setSelected}) => {
+const Portofilolest = ({id, title ,active, setSelected}) => {
   return (
     <li
     className={active ? "Portofilolest active" : "Portofilolest"}

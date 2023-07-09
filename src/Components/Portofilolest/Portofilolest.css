@@ -4,9 +4,13 @@
     border-radius:10px ;
     padding: 7px;
     font-size: 18px;
+    /* transition: 4s ease-in-out; */
 
 }
 .Portofilolest.active{
     background-color: blue;
     color: #fff;
+    /* transition: .7s ease-in-out; */
+    transform: translateY(.9);
+
 }
