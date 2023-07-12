@@ -8,14 +8,14 @@ import css from '../../photo/css.png'
 import javascript from '../../photo/javascript.png'
 import react from '../../photo/react.png'
 import tillwend from '../../photo/tillwend.png'
-// import github from '../../photo/github.png'
+import about from '../../photo/about.png'
 // import linkedin from '../../photo/linkedin.png'
 
 const Home = () => {
   return (
     <div className='home' id='Home'>
                     <div className="image">
-                    <img src={me} alt="" />
+                    <img src={about} alt="" />
                     </div>
                     <div className="container">
                       <div className="top-container">
