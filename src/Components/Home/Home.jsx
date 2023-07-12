@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import video from '../../assets/video.mp4'
-import me from '../../assets/me.jpg'
+// import me from '../../assets/me.jpg'
 import './Home.css'
 import html from '../../photo/html.png'
 import css from '../../photo/css.png'
