@@ -8,8 +8,8 @@ import css from '../../photo/css.png'
 import javascript from '../../photo/javascript.png'
 import react from '../../photo/react.png'
 import tillwend from '../../photo/tillwend.png'
-import github from '../../photo/github.png'
-import linkedin from '../../photo/linkedin.png'
+// import github from '../../photo/github.png'
+// import linkedin from '../../photo/linkedin.png'
 
 const Home = () => {
   return (

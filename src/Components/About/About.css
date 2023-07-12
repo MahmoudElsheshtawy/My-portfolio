@@ -1,0 +1,14 @@
+.about{
+    font-family: 'Poppins', sans-serif;
+    padding:0 4rem;
+}
+.about .contianer {
+    display: flex;
+    align-items: center;
+}
+.about .contianer .right{
+    flex: 1;
+}
+.about .contianer .left{
+    flex: 1;
+}
