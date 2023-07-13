@@ -1,21 +1,20 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import video from '../../assets/video.mp4'
-// import me from '../../assets/me.jpg'
 import './Home.css'
 import html from '../../photo/html.png'
 import css from '../../photo/css.png'
 import javascript from '../../photo/javascript.png'
 import react from '../../photo/react.png'
 import tillwend from '../../photo/tillwend.png'
-import about from '../../photo/about.png'
-// import linkedin from '../../photo/linkedin.png'
+import me from '../../assets/me.jpg'
+
 
 const Home = () => {
   return (
     <div className='home' id='Home'>
                     <div className="image">
-                    <img src={about} alt="" />
+                    <img src={me} alt="" />
                     </div>
                     <div className="container">
                       <div className="top-container">

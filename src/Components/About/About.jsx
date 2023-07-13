@@ -1,17 +1,18 @@
 import React from 'react'
 import './About.css'
+import about from '../../photo/about.webp'
 
 const About = () => {
   return (
     <div className='about' id='About'>  
           <div className="contianer">
             <div className="right">
-         {/* <img src="" alt="" /> */}
-         lffffffffffff
+         <img src={about} alt="" />
+       
             </div>
             <div className="left">
-                <h1>ABOUT ME</h1>
-                <h3>A dedicated Front-end Developer based in Alexandria, egypt</h3>
+                <h1>ABOUT <span>ME</span></h1>
+                <h3>A dedicated Front-end Developer based in Alexandria, egypt.</h3>
                 <p>
                         As a Junior Front-End Developer, I possess an impressive arsenal of 
                         skills in HTML, CSS, JavaScript. React.

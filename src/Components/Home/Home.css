@@ -30,9 +30,8 @@
     transition: 1s ease-in-out;
 
 }
-.home .bottom-container{
-    /* background-color: aqua; */
-}
+/* .home .bottom-container{
+} */
 .home .bottom-container .text-{
   /* margin-top: 40px; */
   margin-left: 20px;
@@ -59,7 +58,6 @@
     align-items: center;
     justify-content: center;
     margin-right: 100px;
-    /* font-size: 20px; */
     font-weight: bold;
     margin-top: 40px;
   
@@ -92,6 +90,19 @@
            position: absolute;
            top: 0px;
         }
+        .home .container .Skils img{
+            width: 40px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 1rem;
+            text-align: center;
+            cursor: pointer;
+        }
+
+
+
+
+
 }
 @media screen and (max-width:760px) {
     .home .container .top-container{
@@ -122,6 +133,22 @@
             transition: 1s ease-in-out;
         
         }
+        .home .container .My-Skils {
+flex-direction: column;
+margin-right: 20px;
+          
+        }
+        .home .container .My-Skils  span{
+            margin-left: 16px;
+        }
+        .home .container .Skils img{
+            width: 40px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 1rem;
+            text-align: center;
+            cursor: pointer;
+        }
 }
 @media screen and (max-width:550px) {
     .home .container .top-container{
@@ -143,6 +170,28 @@
         right: 15px;
         border: 2px solid #ffffff;
     }
+    .home .bottom-container{
+        background-color: aqua;
+        margin-top: 60px;
+        overflow: hidden;
+        font-size: 60%;
+    }
+    .home .container .My-Skils {
+        flex-direction: column;
+        margin-right: 10px;
+                  
+                }
+                .home .container .My-Skils  span{
+                    margin-left: 16px;
+                }
+                .home .container .Skils img{
+                    width: 30px;
+                    margin-right: 0px;
+                    margin-left: 0px;
+                    padding: 1rem;
+                    text-align: center;
+                    cursor: pointer;
+                }
 }
 @media screen and (max-width:430px) {
     .home .container .top-container{
@@ -160,6 +209,15 @@
             top: 120px;
             right: 111px;
             border: 2px solid #ffffff;
+        }
+        .home .bottom-container .text- h3{
+            font-size: 25px;
+            margin: 0;
+        }
+        .home .bottom-container .text- h3 span{
+            color: rgb(75, 74, 74);
+            
+            font-size: 20px;
         }
 }
 
