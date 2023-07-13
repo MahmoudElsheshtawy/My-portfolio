@@ -44,12 +44,11 @@ const Navbar = () => {
             <li onClick={()=>setNav(false)}><a href='#Home'>Home</a></li>
             <li onClick={()=>setNav(false)}><a href='#Portfolio'>Portfolio</a></li>
             <li onClick={()=>setNav(false)}><a href='#About'>About Me</a></li>
-            <li onClick={()=>setNav(false)}><a href='#Work'>Work</a></li>
             <li onClick={()=>setNav(false)}><a href='#Contact Us'>Contact Us</a></li>
             
             
           </ul>
-          <button class="btn"> lern more
+          <button class="btn"> Lern more
 </button>
         </div>
         <div className="hamborger" onClick={handelNav}>

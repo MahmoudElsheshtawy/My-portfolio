@@ -8,7 +8,6 @@ const About = () => {
           <div className="contianer">
             <div className="right">
          <img src={about} alt="" />
-       
             </div>
             <div className="left">
                 <h1>ABOUT <span>ME</span></h1>

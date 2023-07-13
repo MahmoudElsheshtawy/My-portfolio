@@ -2,8 +2,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
-import Skils from "./Components/Skils/Skils";
-import Work from "./Components/Work/Work";
+// import Skils from "./Components/Skils/Skils";
 import About from "./Components/About/About";
 
 function App() {
@@ -14,8 +13,7 @@ function App() {
          <Home/>
          <About/>
          <Portfolio/>
-         <Skils/>
-         <Work/>
+         {/* <Skils/> */}
          <Contact/>
        </div>
     </div>
