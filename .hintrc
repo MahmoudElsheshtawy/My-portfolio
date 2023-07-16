@@ -11,6 +11,9 @@
           "width: fit-content"
         ]
       }
-    ]
+    ],
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/layout": "off",
+    "detect-css-reflows/paint": "off"
   }
 }

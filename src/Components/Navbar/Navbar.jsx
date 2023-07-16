@@ -44,7 +44,7 @@ const Navbar = () => {
             <li onClick={()=>setNav(false)}><a href='#Home'>Home</a></li>
             <li onClick={()=>setNav(false)}><a href='#Portfolio'>Portfolio</a></li>
             <li onClick={()=>setNav(false)}><a href='#About'>About Me</a></li>
-            <li onClick={()=>setNav(false)}><a href='#Contact Us'>Contact Us</a></li>
+            <li onClick={()=>setNav(false)}><a href='#Contact Me'>Contact Me</a></li>
             
             
           </ul>
