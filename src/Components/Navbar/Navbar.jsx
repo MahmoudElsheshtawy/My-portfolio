@@ -48,7 +48,7 @@ const Navbar = () => {
             
             
           </ul>
-          <button class="btn"> Lern more
+          <button className="btn"> Lern more
 </button>
         </div>
         <div className="hamborger" onClick={handelNav}>
