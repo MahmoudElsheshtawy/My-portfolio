@@ -10,7 +10,7 @@ const About = () => {
          <img src={about} alt="" />
             </div>
             <div className="left">
-                <h1>ABOUT <span>ME</span></h1>
+                <h1>ABOUT <span> ME</span></h1>
                 <h3>A dedicated Front-end Developer based in Alexandria, egypt.</h3>
                 <p>
                         As a Junior Front-End Developer, I possess an impressive arsenal of 
