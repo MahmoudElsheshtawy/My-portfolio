@@ -11,12 +11,17 @@
  .home .container .top-container video{
   width: 100%;
   z-index: 4;
+  object-fit: cover;
+  background-position: center;
 }
  .home .container .top-container .video #video{
  width: 100%;
  position: absolute;
  top: -120px;
+
+
  }
+
 .home .image img{
     position: absolute;
     width: 300px;
@@ -27,7 +32,7 @@
     top: 170px;
     right: 40px;
     border: 2px solid #fff;
-    transition: 1s ease-in-out;
+    /* transition: 1s ease-in-out; */
 
 }
 /* .home .bottom-container{
@@ -35,7 +40,7 @@
 .home .bottom-container .text-{
   /* margin-top: 40px; */
   margin-left: 20px;
-  transition: 1s ease-in-out;
+  /* transition: 1s ease-in-out; */
 }
 .home .bottom-container .text- h2{
      margin-bottom: 2px;
