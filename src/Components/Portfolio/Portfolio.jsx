@@ -8,7 +8,7 @@ const Portfolio = () => {
  return(
   <>
   <div className="Portfolio" id='Portfolio'>
-    <div className="container">
+    <div className="container" style={{background:'red'}}>
     <h1>Protfolo</h1>
       {/* landeing-page */}
       <div className="project-1">

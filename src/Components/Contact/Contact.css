@@ -1,39 +1,57 @@
-.Contact{
-
-    height: calc(70vh - 70px);                                                
-    background-color: rgb(0, 0, 0);
+.Contact{                                             
+    /* background-color: rgb(0, 0, 0); */
     font-family: "Roboto","sans-serf";
-}
-.Contact .contanier{
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    background-color:rgb(124, 124, 124);
-    position: relative;
+    transition: .4s;
     width: 100%;
-    
-    height: 70vh;
-
 }
-.Contact .contanier .minue {
-    margin-top: 30px;
-    flex: 1;
-    padding: 2rem;
+.Contact .contanier {
+     padding: 1rem;
+     background-color:rgb(124, 124, 124);
+     height: 100%; 
+     display: grid;
+     grid-template-columns: repeat(auto-fit ,minmax(23rem, 1fr));
+     gap: 1.5rem;
+     overflow: hidden;
 }
-.Contact .contanier .minue ul li{ 
+.Contact .contanier .box {
+  padding: .5rem;
+  /* background-color: #1da1f2; */
+ 
+}
+.Contact .contanier .box ul li{ 
     list-style: none;
-    margin-top: 10px;
+    margin-bottom: 10px;
     transition: .5s ease;
+    margin-left: 150px;
+    /* background-color: antiquewhite; */
 }
-.Contact .contanier .minue ul li:hover{
+.Contact .contanier .box  ul li:hover{
     padding-left: 10px; 
+}
+
+@media screen and (max-width:400px) {
+  .Contact .contanier .box {
+    padding: .5rem;
+    width:fit-content;
+  }
+  .social-btn svg {
+    height: 20px;
+    width: 20px;
+  }
+  .social-btn {
+    height: 40px;
+    width: 40px;
+  }
+  .Contact .contanier .box .social-links,.flex-center {
+    margin-top:10px;
+    transition: .6s;
+  }
+  .Contact .contanier .box ul li{ 
+    margin-left: 0px;
    
 }
-
-.Contact .contanier .image-contact{ 
-    margin-top: 20px;
+  
 }
-
 
 
 /* socal */
@@ -41,6 +59,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #e81cff; */
+    margin-top:90px;
   }
   
   .social-btn {
@@ -49,7 +69,7 @@
     width: 50px;
     font-family: 'Titillium Web', sans-serif;
     color: #333;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     background: white;
     margin: 5px;
@@ -65,7 +85,7 @@
   .social-btn span {
     width: 0px;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 0.5s;
     text-align: center;
     margin-left: 5px;
   }
@@ -92,172 +112,17 @@
     fill: #333;
   }
   /* link contact */
-  .Contact .contanier .contact-mee{
+  .Contact .contanier .one{
+    margin-bottom: 10px;
     display: flex;
-    flex: 1;
     align-items: center;
-margin-top: 40px;
-padding: 1rem;
-    flex-direction: column;
+    font-weight: 500;
+
   }
-  .Contact .contanier .contact-mee .one{
-    display: flex;
-  }
-  .Contact .contanier .contact-mee .icon{
-    /* display: flex; */
-    align-items: center;
-  }
+  .Contact .contanier .box .icon{
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* form */
-.form{
-    margin-right: 40px;
-    flex: 1;
-}
-.form-container {
-    width: 400px;
-    background: linear-gradient(#212121, #212121) padding-box,
-                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
-    border: 2px solid transparent;
-    padding: 32px 24px;
-    font-size: 14px;
-    font-family: inherit;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    box-sizing: border-box;
-    border-radius: 16px;
-    
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 5px;
   }
-  
-  .form-container button:active {
-    scale: 0.95;
-  }
-  
-  .form-container .form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .form-container .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-  
-  .form-container .form-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #717171;
-    font-weight: 600;
-    font-size: 12px;
-  }
-  
-  .form-container .form-group input {
-    width: 100%;
-    padding: 12px 16px;
-    border-radius: 8px;
-    color: #fff;
-    font-family: inherit;
-    background-color: transparent;
-    border: 1px solid #414141;
-  }
-  
-  .form-container .form-group textarea {
-    width: 100%;
-    padding: 12px 16px;
-    border-radius: 8px;
-    resize: none;
-    color: #fff;
-    height: 96px;
-    border: 1px solid #414141;
-    background-color: transparent;
-    font-family: inherit;
-  }
-  
-  .form-container .form-group input::placeholder {
-    opacity: 0.5;
-  }
-  
-  .form-container .form-group input:focus {
-    outline: none;
-    border-color: #e81cff;
-  }
-  
-  .form-container .form-group textarea:focus {
-    outline: none;
-    border-color: #e81cff;
-  }
-  
-  .form-container .form-submit-btn {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    align-self: flex-start;
-    font-family: inherit;
-    color: #717171;
-    font-weight: 600;
-    width: 40%;
-    background: #313131;
-    border: 1px solid #414141;
-    padding: 12px 16px;
-    font-size: inherit;
-    gap: 8px;
-    margin-top: 8px;
-    cursor: pointer;
-    border-radius: 6px;
-  }
-  
-  .form-container .form-submit-btn:hover {
-    background-color: #fff;
-    border-color: #fff;
-  }
-   
-  
-  
   
