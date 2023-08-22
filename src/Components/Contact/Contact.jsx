@@ -19,7 +19,7 @@ function Contact() {
                 <li><a href='#Contact Us'>Contact Me</a></li>
               </ul>
         </div>
-        <div className="box-2" >
+        <div className="box" >
                             <div className="image-contact">                          
                                 <div class="social-links">
                                   <div id="twitter" className="social-btn flex-center">
@@ -36,7 +36,7 @@ function Contact() {
                             </div>
           </div>
           
-            <div className="box-3">
+            <div className="box">
             
                           <div className="one">
                                   <BiLogoGmail className='icon'/>
