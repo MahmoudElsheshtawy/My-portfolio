@@ -176,7 +176,7 @@ margin-right: 20px;
         border: 2px solid #ffffff;
     }
     .home .bottom-container{
-        background-color: aqua;
+        /* background-color: aqua; */
         margin-top: 60px;
         overflow: hidden;
         font-size: 60%;
