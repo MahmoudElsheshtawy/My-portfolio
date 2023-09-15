@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import logo from '../../photo/logo.png'
+import logo_tow from '../../../src/photo/photo/logo_tow.png'
 import {FaBars,FaTimes,FaUser} from 'react-icons/fa'
 import {BiLogoGmail} from 'react-icons/bi'
 
@@ -18,7 +18,7 @@ const Navbar = () => {
 <div className="navbar  active" >
     <div className="container">
       {/* logo */}
-        <div className="logo"><img src={logo} alt=""/></div>
+        <div className="logo"><img src={logo_tow} alt=""/></div>
         {/* contact */}
         <div className="contact">
           <div className="number">

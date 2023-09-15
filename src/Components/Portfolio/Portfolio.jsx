@@ -7,6 +7,7 @@ import './Portfolio.css'
 const Portfolio = () => {
  return(
   <>
+  
   <div className="Portfolio" id='Portfolio'>
     <div className="container" style={{background:'red'}}>
     <h1>Protfolo</h1>
