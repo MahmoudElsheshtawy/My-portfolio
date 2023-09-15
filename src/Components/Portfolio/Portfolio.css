@@ -113,7 +113,11 @@ flex-wrap: wrap;
 }
 
 
-
+/* nem */
+span img
+{
+    width: 200px;
+}
 
 
 

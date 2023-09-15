@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/jsx-no-undef */
 import './Portfolio.css'
 
-
+import project from '../../project.json'
 
 
 
@@ -12,25 +14,22 @@ const Portfolio = () => {
     <div className="container" style={{background:'red'}}>
     <h1>Protfolo</h1>
       {/* landeing-page */}
-      <div className="project-1">
-            <div className="right">yhtyh</div>
-            <div className="left">ythh</div>
+      <div className="projects">
+          {project.map((item)=>(
+           
+            <div key={item.id}>
+            <div className='right'>
+                  
+                  <span>{item.name}</span>
+                  <span><img src={item.imgUrl} href="https://vercel.com/mahmoudelsheshtawy/e-commerce-app/4cpLZLmNiAh2QSkzHBQm7Bim1yCA"/></span>
+                 
+                  
+                  </div>
+            <div> </div>
+            </div>
+          ))}
       </div>
-      {/* e-commerce */}
-      <div className="project-1">
-            <div className="right">ytht</div>
-            <div className="left">htyh</div>
-      </div>
-      {/* car-stor */}
-      <div className="project-1">
-            <div className="right">yht</div>
-            <div className="left">yth</div>
-      </div>
-      {/* socail medai app */}
-      <div className="project-1">
-            <div className="right">tyht</div>
-            <div className="left">yty</div>
-      </div>
+ 
     </div>
   </div>
   

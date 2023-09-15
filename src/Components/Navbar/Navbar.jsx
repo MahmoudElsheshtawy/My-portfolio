@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import logo_tow from '../../../src/photo/photo/logo_tow.png'
+import logo_tow from '../../photo/logo_tow.png'
 import {FaBars,FaTimes,FaUser} from 'react-icons/fa'
 import {BiLogoGmail} from 'react-icons/bi'
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import video from '../../assets/video.mp4'
 import './Home.css'
@@ -8,18 +8,22 @@ import javascript from '../../photo/javascript.png'
 import react from '../../photo/react.png'
 import tillwend from '../../photo/tillwend.png'
 import me from '../../assets/me.jpg'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Home = () => {
+  useEffect(()=>{
+    Aos.init({duration:1500})
+   })
   return (
     <div className='home' id='Home'>
-                    <div className="image">
-                    <img src={me} alt="" />
+                    <div  className="image">
+                    <img data-aos="zoom-out-down"src={me} alt="" />
                     </div>
                     <div className="container">
                       <div className="top-container">
                         <div className="video">
-                          <video autoPlay loop muted id='video' >
+                          <video data-aos="fade-down" autoPlay loop muted id='video' >
                               <source src={video} type='video/mp4'/>
                           </video>
                           
@@ -57,7 +61,7 @@ const Home = () => {
                     </div> */} 
                     <div className="My-Skils">
                       <h2>Tech Stack<span>  |</span></h2>
-                     <div className="Skils">
+                     <div  className="Skils">
                       <img src={html} alt="" />
                       <img src={css} alt="" />
                       <img src={javascript} alt="" />

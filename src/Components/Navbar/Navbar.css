@@ -119,10 +119,10 @@ a{
         background-color: rgb(7, 11, 48);
         display: flex;
         align-items: center;
-        top: 73px;
+        top: 60px;
         left: -100%;
         width: 70%;
-        transition: all 1s ease;
+        transition: all .4s ease;
        }
        .nav-menu.active{
           left: 0px;
