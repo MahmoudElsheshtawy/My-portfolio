@@ -62,7 +62,7 @@ const Home = () => {
                     <div className="My-Skils">
                       <h2>Tech Stack<span>  |</span></h2>
                      <div  className="Skils">
-                      <img src={html} alt="" />
+                      <img  src={html} alt="" />
                       <img src={css} alt="" />
                       <img src={javascript} alt="" />
                       <img src={react} alt="" />
