@@ -22,9 +22,7 @@
     }
 }
 @media screen and (max-width:430px) {
-    .Portfolio .container{
-        /* padding:0 1rem; */
-    }
+    
     .right img{
         width: 300px;
     }
