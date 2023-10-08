@@ -1,85 +1,42 @@
-
-/* na active */
-
-span img
-{
-    width: 432px;
-    height: 262px;
+.right img{
+   width: 380px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .Portfolio .container{
     font-family: 'Poppins', sans-serif;
     margin-top: 100px;
-    /* background-color: aqua; */
+    padding:0 11rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
 }
-/* .Portfolio .container .top-container */
-.Portfolio .container h1{
+
+.Portfolio  h1{
     margin-top: 70px;
     font-size: 50px;
 }
-.Portfolio .container .top-container ul{
-    display: flex;
-    /* background-color: bisque; */
-    list-style: none;
-    padding: .5rem;
-    cursor: pointer;
-    flex-wrap: wrap;
+@media screen and (max-width:930px) {
+    .right img{
+        margin-top: 20px;
+    }
 }
-/* ?/////////////////////////////////////////////////////////////// */
-
-
-
-
-
-
-/* nem */
-
-
-
-
-
-
-
+@media screen and (max-width:430px) {
+    .Portfolio .container{
+        /* padding:0 1rem; */
+    }
+    .right img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:360px) {
+    .Portfolio .container{
+        padding:1rem ;
+    }
+    .right img{
+        width: 250px;
+    }
+}
 
 
 

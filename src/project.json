@@ -6,8 +6,20 @@
         "imgUrl": "/photo/e-comerce.png",
         "information":"Im Built a ecommerce website from scratch,important topics of react js such as jsx,components, props, state,  lifecycle of components, conditional rendering, lists, keys, context api. "
 
-      }
-  
+      },
+    
+      {
+        "id": 2,
+        "name": "scoal-medai-app",
+        "imgUrl": "/photo/scoal-medai-app.png",
+        "information":"Im Built a ecommerce website from scratch,important topics of react js such as jsx,components, props, state,  lifecycle of components, conditional rendering, lists, keys, context api. "
 
-   
+      },
+      {
+        "id": 3,
+        "name": "To do-list",
+        "imgUrl": "/photo/e-comerce.png",
+        "information":"Im Built a ecommerce website from scratch,important topics of react js such as jsx,components, props, state,  lifecycle of components, conditional rendering, lists, keys, context api. "
+
+      }
 ]
