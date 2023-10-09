@@ -40,6 +40,34 @@ const Portfolio = () => {
                           <img src={ecomerce} />
                         </div>
               </div>
+              {/* 2 */}
+                              <div className="project" style={{display:'flex', border:" 1px solid rgb(43 43 43)" ,padding:'1rem',marginBottom:'20px',flexWrap:'wrap'}}>
+
+                                    <div className="left" style={{display:"flex",flexDirection:'column',flex:'1'}}>
+                                      <span style={{fontWeight:'bold',marginBottom:'10px' }}>e-commerce website</span> 
+                                      <span style={{fontSize:'16px',color:'#aaa'}}>
+                                        Im Built a ecommerce website from 
+                                        scratch,important topics of react js such as jsx,components, props, state, 
+                                        lifecycle of components, conditional rendering, lists, keys, context api.</span>
+
+                                        <div className="stck-use" style={{marginTop:'30px'}}>
+                                          <span style={{ padding:'3px',color:'#000',marginRight:'30px',background: 'rgb(130 130 130)',borderRadius:'5px'}}>React.js</span>
+                                          <span style={{ padding:'3px',color:'#000',background: 'rgb(130 130 130)',borderRadius:'5px'}}>vanila-Css</span>
+                                          <img></img>
+                    
+                                        </div>
+                                              <div className="btn" style={{display:'flex',justifyContent:'space-around',alignItems:'center',marginTop:'50px',cursor:'pointer'}} >
+                                                  <button className="button" ><a style={{color:'#fff'}} href="https://e-commerce-app-git-master-mahmoudelsheshtawy.vercel.app/">Deploy</a></button>
+                                                  <button className="button">
+                                                  Code
+                                                  </button>
+                                              </div>
+                                      
+                                    </div>
+                                             <div className="right" style={{display:'flex',flex:'1',justifyContent:'flex-end'}}>
+                                             <img src={ecomerce} />
+                                            </div>
+                </div>
               </div>
               {/* scoal-medai-app */}
              
