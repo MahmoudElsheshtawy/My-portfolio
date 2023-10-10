@@ -50,7 +50,7 @@ const Portfolio = () => {
                               <div className="project" style={{display:'flex', border:" 1px solid rgb(43 43 43)" ,padding:'1rem',marginBottom:'20px',flexWrap:'wrap'}}>
 
                                     <div className="left" style={{display:"flex",flexDirection:'column',flex:'1'}}>
-                                      <span style={{fontWeight:'bold',marginBottom:'10px' }}>e-commerce website</span> 
+                                      <span style={{fontWeight:'bold',marginBottom:'10px' }}>prayers-app</span> 
                                       <span style={{fontSize:'16px',color:'#aaa'}}>
                                         Im Built a ecommerce website from 
                                         scratch,important topics of react js such as jsx,components, props, state, 
@@ -78,7 +78,7 @@ const Portfolio = () => {
                           <div className="project" style={{display:'flex', border:" 1px solid rgb(43 43 43)" ,padding:'1rem',marginBottom:'20px',flexWrap:'wrap'}}>
 
                                     <div className="left" style={{display:"flex",flexDirection:'column',flex:'1'}}>
-                                      <span style={{fontWeight:'bold',marginBottom:'10px' }}>e-commerce website</span> 
+                                      <span style={{fontWeight:'bold',marginBottom:'10px' }}>Todo-List</span> 
                                       <span style={{fontSize:'16px',color:'#aaa'}}>
                                         Im Built a ecommerce website from 
                                         scratch,important topics of react js such as jsx,components, props, state, 
@@ -108,7 +108,7 @@ const Portfolio = () => {
                           <div className="project" style={{display:'flex', border:" 1px solid rgb(43 43 43)" ,padding:'1rem',marginBottom:'20px',flexWrap:'wrap'}}>
 
                                   <div className="left" style={{display:"flex",flexDirection:'column',flex:'1'}}>
-                                    <span style={{fontWeight:'bold',marginBottom:'10px' }}>e-commerce website</span> 
+                                    <span style={{fontWeight:'bold',marginBottom:'10px' }}>Socail-media</span> 
                                     <span style={{fontSize:'16px',color:'#aaa'}}>
                                       Im Built a ecommerce website from 
                                       scratch,important topics of react js such as jsx,components, props, state, 
@@ -121,7 +121,7 @@ const Portfolio = () => {
 
                                       </div>
                                             <div className="btn" style={{display:'flex',justifyContent:'space-around',alignItems:'center',marginTop:'50px',cursor:'pointer'}} >
-                                                <button className="button" ><a style={{color:'#fff'}} href="https://scoal-medai-app.vercel.app/">Deploy</a></button>
+                                                <button className="button" ><a style={{color:'#fff'}} href="https://scoal-medai-app.vercel.app/ ">Deploy</a></button>
                                                 <button className="button">
                                                 Code
                                                 </button>
