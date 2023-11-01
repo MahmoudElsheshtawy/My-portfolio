@@ -7,8 +7,8 @@ const Portofilolest = () => {
   <>
   <div className="contanier"  style={{background:'#000' ,color:'#fff'}}>
        <div className="header">
-        <h1> prttofoluep</h1>
-        <span>___</span>
+        {/* <h1> prttofoluep</h1> */}
+        {/* <span>___</span> */}
         <div className="cards">
 
 
