@@ -19,11 +19,6 @@ const Portofilolest = () => {
             </div>
 
           ))}
-        {/* {AllCategorys.map((item)=>(
-                <div key={item.id} >
-                <AllCategory {...item} />
-              </div>
-            ))} */}
         </div>
        </div>
 

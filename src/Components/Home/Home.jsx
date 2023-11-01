@@ -51,14 +51,7 @@ const Home = () => {
                                 </h3>
                         </div>
                     </div>
-                    {/* <div className="links">
-                      {/* <img src={github} alt="" /> */}
-                      {/* button github */}
-                           
-         
-                      {/* button github */}
-                      {/* <img src={linkedin} alt="" />
-                    </div> */} 
+  
                     <div className="My-Skils">
                       <h2>Tech Stack<span>  |</span></h2>
                      <div  className="Skils">

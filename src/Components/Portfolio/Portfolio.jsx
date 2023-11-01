@@ -19,7 +19,7 @@ const Portfolio = ({information,id ,link ,imgUrl,tools,name}) => {
 
                     {/* {project.map((item)=>( */}
        
-                                   <div  key={id} style={{display:'flex', border:" 1px solid rgb(43 43 43)" ,padding:'1rem',marginBottom:'20px'}}>
+                                   <div  key={id} style={{display:'flex', border:" 1px solid rgb(43 43 43)" ,padding:'1rem',marginBottom:'20px',flexWrap:'wrap'}}>
 
 
 

@@ -1,5 +1,4 @@
 .Contact{                                             
-    /* background-color: rgb(0, 0, 0); */
     font-family: "Roboto","sans-serf";
     transition: .4s;
     width: 100%;
@@ -15,7 +14,7 @@
 }
 .Contact .contanier .box {
   padding: .5rem;
-  /* background-color: #1da1f2; */
+
  
 }
 .Contact .contanier .box ul li{ 
@@ -23,9 +22,9 @@
     margin-bottom: 10px;
     transition: .5s ease;
     margin-left: 150px;
-    /* background-color: antiquewhite; */
+ 
 }
-.Contact .contanier .box  ul li:hover{
+.Contact ul li:hover{
     padding-left: 10px; 
 }
 
@@ -42,11 +41,11 @@
     height: 40px;
     width: 40px;
   }
-  .Contact .contanier .box .social-links,.flex-center {
+  .Contact .social-links,.flex-center {
     margin-top:10px;
     transition: .6s;
   }
-  .Contact .contanier .box ul li{ 
+  .Contact .box ul li{ 
     margin-left: 0px;
    
 }
@@ -119,7 +118,7 @@
     font-weight: 500;
 
   }
-  .Contact .contanier .box .icon{
+  .Contact .box .icon{
   
     color: aliceblue;
     font-size: 20px;

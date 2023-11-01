@@ -104,8 +104,6 @@ a{
   
   .button2:active {
     color: #666;
-    /* box-shadow: inset 4px 4px 12px #c5c5c5, */
-               /* inset -4px -4px 12px #ffffff; */
   }
   
   .button2:before {
@@ -186,7 +184,6 @@ a{
           display: block;
       }
 }
-/* max-width 570px */
 @media screen and (max-width:570px) {
     .navbar .container{
         display: flex;

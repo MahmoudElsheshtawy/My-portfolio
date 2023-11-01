@@ -30,6 +30,7 @@
 @media screen and (max-width:360px) {
     .Portfolio .container{
         padding:1rem ;
+        flex-wrap: wrap;
     }
     .right img{
         width: 250px;
