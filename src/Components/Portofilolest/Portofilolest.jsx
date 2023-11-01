@@ -37,9 +37,3 @@ const Portofilolest = () => {
 
 export default Portofilolest
 // no active
-{/* <li
-className={active ? "Portofilolest active" : "Portofilolest"}
-onClick={() => setSelected(id)}
->
-{title}
-</li> */}
