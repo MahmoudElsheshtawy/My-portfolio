@@ -1,16 +1,17 @@
  .Portofilolest{
-    margin-right: 70px;
-    font-size: 20px;
-    border-radius:10px ;
-    padding: 7px;
-    font-size: 18px;
+    /* margin-right: 70px; */
+    /* font-size: 20px; */
+    /* border-radius:10px ; */
+    /* padding: 7px; */
+    /* font-size: 18px; */
     /* transition: 4s ease-in-out; */
+    /* background-color: black; */
 
 }
 .Portofilolest.active{
-    background-color: blue;
-    color: #fff;
+    /* background-color: blue; */
+    /* color: #fff; */
     /* transition: .7s ease-in-out; */
-    transform: translateY(.9);
+    /* transform: translateY(.9); */
 
 }
