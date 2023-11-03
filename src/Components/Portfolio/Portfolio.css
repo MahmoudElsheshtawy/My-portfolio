@@ -1,17 +1,8 @@
 
 .Portfolio{
     font-family: 'Poppins', sans-serif;
-    /* margin-top: 100px; */
-    /* padding:0 10rem; */
-    width: 80%;
+    width: 70%;
     margin: auto;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* flex-direction: column; */
-    /* margin-bottom: 100px; */
-    /* width: 100%; */
-  
 }
 
 
@@ -68,6 +59,11 @@ width: 100%;
         width: 100%;
         margin-left: -15px;
         
+        }
+        .Portfolio{
+            font-family: 'Poppins', sans-serif;
+            width: 80%;
+            margin: auto;
         }
 }
 
