@@ -12,12 +12,16 @@ display: flex;
 padding:0 1rem;
 align-items: center;
 justify-content: space-between;
-border: 1px #aaa solid;
+border: 1px #373737 solid;
 width: 100%;
 
 }
-.right img{
-    width: 380px;
+.Portfolio .right img{
+    width: 408px;
+    height: 239px;
+    padding: 10px 0;
+    object-fit: cover;
+    
  }
 @media screen and (max-width:930px) {
     .right img{
@@ -33,21 +37,25 @@ width: 100%;
 }
 @media screen and (max-width:430px) {
     
-    .right img{
-        width: 300px;
+    .Portfolio .right img{
+        width: 303px;
+        height: 189px;
     }
 }
 @media screen and (max-width:360px) {
 
-    .right img{
-        width: 250px;
+    .Portfolio .right img{
+        width: 252px;
+        height: 146px;
     }
 }
 
 @media screen and (max-width:320px) {
 
-    .right img{
-        width: 250px;
+    .Portfolio .right img{
+        width: 261px;
+        height: 161px;
+        object-fit: cover;
     }
     .Portfolio .content{
 

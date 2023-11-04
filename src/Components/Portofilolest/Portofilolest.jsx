@@ -5,7 +5,7 @@ import Portfolio from '../Portfolio/Portfolio'
 const Portofilolest = () => {
   return (
   <>
-  <div className="contanier"  style={{background:'#000' ,color:'#fff'}}>
+  <div className="contanier"  style={{background:'#000' ,color:'#fff',paddingTop:"2rem"}} id='Portfolio'>
        <div className="header" style={{paddingTop:"3rem"}}>
         <h2 style={{marginBottom:'0'}}> {`< Projects />`}</h2>
         <h4 style={{marginTop:'0'}}>These are My Completed Projects.</h4>

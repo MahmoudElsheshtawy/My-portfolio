@@ -12,7 +12,7 @@ import './Portfolio.css'
 const Portfolio = ({information,id ,link ,imgUrl,tools,name}) => {
  return(
   <>
-<div className="Portfolio" style={{background:'#000' ,color:'#fff'}}>
+<div className="Portfolio" style={{background:'#000' ,color:'#fff'}} id='Portfolio'>
     <div className="projects" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" style={{margin:'auto',background:'#000',marginBottom:'20px'}}>
             <div  className='content'>
               <div className="left" style={{display:"flex",flexDirection:'column',flex:'1'}}>
