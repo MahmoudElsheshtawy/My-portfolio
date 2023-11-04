@@ -42,8 +42,8 @@ const Navbar = () => {
         <div className={Nav ? "nav-menu active":"nav-menu"} style={{display:'flex' ,alignItems:'center'}}>
           <ul>
             <li onClick={()=>setNav(false)}><a href='#Home'>Home</a></li>
-            <li onClick={()=>setNav(false)}><a href='#Portfolio'>Portfolio</a></li>
             <li onClick={()=>setNav(false)}><a href='#About'>About Me</a></li>
+            <li onClick={()=>setNav(false)}><a href='#Portfolio'>Portfolio</a></li>
             <li onClick={()=>setNav(false)}><a href='#Contact Me'>Contact Me</a></li>
             
             
