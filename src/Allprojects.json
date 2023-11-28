@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "E-commerce-app",
-        "information": "wfefwefewfefe",
+        "information": "",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/ecomerce.png",
         "link" : "https://e-commerce-app-git-master-mahmoudelsheshtawy.vercel.app/"
@@ -13,12 +13,12 @@
         "information": "wfefwefewfefe",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/drama.png",
-        "link" : "https://keen-cat-472469.netlify.app"
+        "link" : "https://654927b776994a28389f7c61--legendary-stroopwafel-b59bb2.netlify.app/"
       },
       {
         "id": 3,
         "name": "To-do list",
-        "information": "hhhhhh",
+        "information": "uuuu",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/todo.png",
         "link" : "https://todo-2foal12wo-mahmoudelsheshtawy.vercel.app/"
