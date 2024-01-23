@@ -23,14 +23,7 @@
         "imgUrl": "/photo/todo.png",
         "link" : "https://todo-2foal12wo-mahmoudelsheshtawy.vercel.app/"
       },
-      {
-        "id": 4,
-        "name": "Prayer-app",
-        "information": "wfefwefewfefe",
-        "tools": "react && vanila-css",
-        "imgUrl": "/photo/prayers.png",
-        "link" : "https://flourishing-biscochitos-094efd.netlify.app/"
-      },
+   
       {
         "id": 5,
         "name": "clalc lator",
