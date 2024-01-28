@@ -10,6 +10,10 @@ import './Portfolio.css'
 
 
 const Portfolio = ({information,id ,link ,imgUrl,tools,name}) => {
+
+
+
+
  return(
   <>
 <div className="Portfolio" style={{background:'#000' ,color:'#fff'}} id='Portfolio'>
@@ -34,7 +38,7 @@ const Portfolio = ({information,id ,link ,imgUrl,tools,name}) => {
 
                 </div>
                             <div className='right ' style={{display:'flex',flex:'1',justifyContent:'flex-end'}}>
-                              <span><img src={imgUrl} /></span>
+                              <a className='imgweb' href={link}><img src={imgUrl}  /></a>
                             </div> 
             </div>
                       

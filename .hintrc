@@ -18,3 +18,11 @@
     "detect-css-reflows/paint": "off"
   }
 }
+   // {
+      //   "id": 4,
+      //   "name": "Prayer-app",
+      //   "information": "wfefwefewfefe",
+      //   "tools": "react && vanila-css",
+      //   "imgUrl": "/photo/prayers.png",
+      //   "link" : "https://flourishing-biscochitos-094efd.netlify.app/"
+      // },
