@@ -20,7 +20,7 @@ const Portfolio = ({information,id ,link ,imgUrl,tools,name}) => {
     <div className="projects" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" style={{margin:'auto',background:'#000',marginBottom:'20px'}}>
             <div  className='content'>
               <div className="left" style={{display:"flex",flexDirection:'column',flex:'1'}}>
-                            <span style={{fontWeight:'bold',marginBottom:'10px' }} >{name}</span> 
+                            <span style={{fontWeight:'bold',marginBottom:'10px' ,marginTop:"20px"}} >{name}</span> 
                             <span style={{fontSize:'16px',color:'#aaa'}}>{information}</span>
                    <div className="stck-use" style={{marginTop:'30px'}}>
                           <span style={{ padding:'3px',color:'#000',marginRight:'30px',background: 'rgb(130 130 130)',borderRadius:'5px'}}>React.js</span>

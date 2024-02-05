@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "E-commerce-app",
-        "information": "",
+        "information": "ffffffff",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/ecomerce.png",
         "link" : "https://e-commerce-app-git-master-mahmoudelsheshtawy.vercel.app/"
@@ -10,7 +10,7 @@
       {
         "id": 2,
         "name": "Movies-app",
-        "information": "wfefwefewfefe",
+        "information": "fffffffffffff",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/drama.png",
         "link" : "https://654927b776994a28389f7c61--legendary-stroopwafel-b59bb2.netlify.app/"
@@ -18,7 +18,7 @@
       {
         "id": 3,
         "name": "To-do list",
-        "information": "uuuu",
+        "information": "fffffffffffff",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/todo.png",
         "link" : "https://todo-2foal12wo-mahmoudelsheshtawy.vercel.app/"
@@ -27,7 +27,7 @@
       {
         "id": 5,
         "name": "clalc lator",
-        "information": "wfefwefewfefe",
+        "information": "fffffffffffff",
         "tools": "react && vanila-css",
         "imgUrl": "/photo/Calcolator.png",
         "link" : "https://calculator-9omnvceny-mahmoudelsheshtawy.vercel.app/"
