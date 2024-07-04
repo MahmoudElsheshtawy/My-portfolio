@@ -1,4 +1,4 @@
- .home{
+ /* .home{
     height: calc(100vh - 50px);
     font-family: 'Poppins', sans-serif;
  }
@@ -129,7 +129,7 @@
     top: 180px;
     right: 40px;
     /* left: 206px; */
-    border: 2px solid #fff;
+    /* border: 2px solid #fff;
     transition: 1s ease-in-out;
 
 }
@@ -172,9 +172,9 @@
 }
 .home .bottom-container{
     /* background-color: aqua; */
-    margin-top: 60px;
-    overflow: hidden;
-    font-size: 60%;
+    /* margin-top: 60px;
+    overflow: hidden; */
+    /* font-size: 60%;
 }
 .home .container .My-Skils {
     flex-direction: column;
@@ -198,11 +198,11 @@
     width: 100%;
     height:25vh;
     overflow: hidden;
-}
-.home .image img{
+} */
+/* .home .image img{
     position: absolute;
-    width: 100px;
-    border-radius: 50%;
+    width: 100px; */
+    /* border-radius: 50%;
     height: 100px;
     object-fit: cover;
     z-index: 5;
@@ -225,21 +225,21 @@
 
 
 
+ */ 
 
 
 
 
 
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
- 
- 
- 
- 
- 
- 
- 
- 
  
  
  
